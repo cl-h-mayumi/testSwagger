@@ -1,0 +1,46 @@
+openapi: 3.0.1
+info:
+  title: test
+  description: ''
+  version: 1.0.0
+tags: []
+paths:
+  /users:
+    get:
+      summary: ユーザー一覧取得API
+      deprecated: false
+      description: ''
+      tags: []
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+          headers: {}
+      security: []
+  /works:
+    get:
+      summary: 作品一覧取得API
+      deprecated: false
+      description: ''
+      tags: []
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+          headers: {}
+      security: []
+components:
+  schemas: {}
+  securitySchemes: {}
+servers: []
+security: []
